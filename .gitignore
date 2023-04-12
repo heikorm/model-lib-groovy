@@ -1,0 +1,22 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+# Ignore ItelliJ project-specific stuff
+.idea/*
+
+# Ignore Gradle build output directory
+build
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# dont know the usage
+.gitattributes
+
+# ignore gradle.properties where the github user and token is set
+lib/gradle.properties
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
